@@ -20,6 +20,7 @@ function product(overrides: Partial<Product> = {}): Product {
     discount: 25,
     discount_price: 29990,
     image: 'https://example.com/juego.jpg',
+    url: 'https://example.com/juego',
     ...overrides,
   }
 }

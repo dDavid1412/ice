@@ -214,6 +214,22 @@ export default function Home() {
                       <dd>{formatCLP(product.best_price)}</dd>
                     </div>
                   </dl>
+                  <div className="card__actions">
+                    {product.url ? (
+                      <a
+                        className="card__button"
+                        href={product.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Ver producto
+                      </a>
+                    ) : (
+                      <button type="button" className="card__button" disabled>
+                        Ver producto
+                      </button>
+                    )}
+                  </div>
                 </div>
               </article>
             ))}

@@ -10,6 +10,7 @@ export interface Product {
   discount: number | null
   discount_price: number | null
   image: string | null
+  url: string | null
 }
 
 export type SortOption = 'discount-desc' | 'price-asc' | 'price-desc'
