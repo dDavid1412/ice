@@ -1,0 +1,49 @@
+:root {
+  color-scheme: dark;
+
+  --bg: #171a21;
+  --bg-soft: #1b2838;
+  --surface: #1e2a3a;
+  --surface-hover: #24364a;
+  --border: #2a475e;
+  --text: #c7d5e0;
+  --text-strong: #ffffff;
+  --muted: #8f98a0;
+  --accent: #66c0f4;
+  --accent-strong: #417a9b;
+  --discount: #a4d007;
+  --danger: #e06c75;
+
+  font-family: 'Motiva Sans', 'Segoe UI', system-ui, Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: var(--text-strong);
+}
+
+p {
+  margin: 0;
+}
+
+button,
+select {
+  font: inherit;
+}
